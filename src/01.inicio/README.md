@@ -2,10 +2,15 @@
 
 # 1. Inicio
 
-## 1.1 Instalar el software que vamos a necesitar:
+## 1.1 Requisitos para el entorno
 
-* Instalar ruby
-* Instalar un editor de código
+* Instalar VS Codium (https://vscodium.com/#install)
+* Instalar Git (https://git-scm.com/install/windows)
+* Sourcetree (https://www.sourcetreeapp.com/)
+* Instalar ruby (https://www.ruby-lang.org/en/documentation/installation/#winget)
+
+Clonar el repo en local:
+* `git clone https://github.com/dvarrui/conam.git`
 
 ## 1.2 Esquema inicial
 
