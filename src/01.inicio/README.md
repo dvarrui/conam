@@ -17,6 +17,7 @@ Clonar el repo en local:
 Esquema inicial de las escenas y saltos entre escenas.
 
 * Empezar con un esquema sencillo de aventura conversacional.
+* Acciones: ir, coger, dejar, usar
 * Escenas
     * Escena inicial o main: 
         * Mostrar texto o descripción y opciones
