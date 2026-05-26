@@ -8,6 +8,6 @@ class Room
   end
 
   def to_s
-    "<Room: id=#{@id} dirs=#{@dirs}>"
+    "Room: id=<#{@id}> | dirs=<#{@dirs}> | desc=<#{@desc}>"
   end
 end

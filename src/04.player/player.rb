@@ -5,6 +5,6 @@ class Player
   end
 
   def to_s
-    "<Player: name=#{@name}, room=#{@room}>"
+    "<Player: name=#{@name} | room=#{@room.id}>"
   end
 end
