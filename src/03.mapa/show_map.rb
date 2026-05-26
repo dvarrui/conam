@@ -1,29 +1,28 @@
 
 def show_map(map)
   puts "Ver mapa:"
-  # Todas las filas
+  # recorrer todas las filas
   for row in 0..2
-    show_row_room(row, map)
-    show_row_door(row, map)
+    show_row_h_doors(row, map)
+    show_row_v_doors(row, map)
   end
 end
 
-def show_row_room(row, map)
+def show_row_h_doors(row, map)
   for col in 0..2
     room = map[row][col]
   
-    if room.dirs.include? "w"
+    if room.dirs.include? "e"
       door = "-"
     else
       door = " "
     end
     print room.letter + " " + door + " "
   end
-
   print "\n"
 end
 
-def show_row_door(row, map)
+def show_row_v_doors(row, map)
   for col in 0..2
     room = map[row][col]
   
@@ -32,9 +31,7 @@ def show_row_door(row, map)
     else
       door = " "
     end
-    # print room.letter + " " + door + " "
     print door + "   "
   end
-
   print "\n"
 end
